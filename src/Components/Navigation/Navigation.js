@@ -37,7 +37,7 @@ function Navigation() {
 
   return (
     <AppBar position="static">
-      <Container maxWidth="xl">
+      <Container maxWidth="100%">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
@@ -49,13 +49,12 @@ function Navigation() {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
+              fontWeight: 600,
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            ABCD
+            ANT ESPORTS
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
